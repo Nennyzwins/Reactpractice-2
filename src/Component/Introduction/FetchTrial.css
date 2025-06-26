@@ -1,0 +1,26 @@
+.Main-card-div1{
+    display: flex;
+    background-color: brown;
+    
+    
+    
+}
+
+.Main-card-div{
+    width: 30rem;
+    border-style: ridge;
+    gap: 50px;
+    justify-content: space-between;
+}
+
+.btn-btn-primary{ background-color: blueviolet;
+    color: white;
+    padding-left: 50px;
+    height: 30px;
+    width: 50px;
+    border-style: ridge;
+}
+
+.Card-Body{
+    background-color: brown;
+}
