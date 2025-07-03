@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 import { Link, useNavigate } from "react-router-dom";
 
+
 const UsersInfo = () => {
 
   const navigate = useNavigate ();
@@ -10,6 +11,15 @@ const UsersInfo = () => {
     navigate ('/Signup');
         
   };
+
+  
+ 
+  const LoginPage = () => {
+
+    navigate ('/Login');
+        
+  };
+
 
   const [viewResult, setViewResult] = useState([]);
   console.log(viewResult);
@@ -68,8 +78,14 @@ const UsersInfo = () => {
         <button style={{height:"50px", width:"100px", backgroundColor:"blue", color:"white"}} 
         onClick={signUpPage}>Sign Up</button>
      </div>
+
+
+     <div style={{padding:"30px"}}>
+        <button style={{height:"50px", width:"100px", backgroundColor:"blue", color:"white"}} 
+        onClick={LoginPage}>Login Page</button>
+     </div>
          
-       
+    
 
   </div>
 

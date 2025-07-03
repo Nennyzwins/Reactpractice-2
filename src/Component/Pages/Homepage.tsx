@@ -4,6 +4,10 @@ import FetchTrial from '../Introduction/FetchTrial'
 import UsersInfo from '../Users/UsersInfo'
 import UsersDetails from '../Users/UsersDetails'
 import Signup from '../Signup'
+import TailWind from '../TailWind'
+import Login from '../Login'
+import UpdateUserProfile from '../UpdateProfile/UpdateUserProfile'
+
 
 const Homepage = () => {
   return (
@@ -13,6 +17,15 @@ const Homepage = () => {
       <UsersDetails/>
       <UsersInfo/> 
       <Signup/>
+      <TailWind/>
+      <Login/>
+      <UpdateUserProfile/>
+
+      
+     
+
+      
+      
       
     </div>
   )
